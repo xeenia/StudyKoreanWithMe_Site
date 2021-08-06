@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>StudyKoreanWithMe</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles/loginStyle.css">
+<link rel="stylesheet" href="styles/mainStyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div class="sidenav" id="sideNav">
+  
+      <a href="index.html">
+        <div class="menu">
+          αρχική
+        </div>
+      </a>
+    <a href="basics.html">
+      <div class="menu">
+        βασικά
+      </div>
+    </a>
+    
+    <a href="more.html">
+      <div class="menu">
+        περισσότερα
+      </div>
+    </a>
+    <a href="quiz.html">
+    <div class="menu">
+      quiz
+    </div>
+    </a>
+    
+    <a href="login.html" class="active">
+      <div class="menu">
+        είσοδος
+      </div>
+    </a>
+   
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="font-size:140%">
+    <i class="fa fa-bars"></i>
+  </a>
+  </div>
+
+<div class="content">
+  <h3>είσοδος</h3>
+  <p class="pec">Εδώ μπορείς να συνδεθείς στον λογαριασμό σου. Αν είσαι καινούργιος/καινούργια μπορείς να κάνεις <a href="sign-up.html">
+	εγγραφή
+</a>
+  </p>
+  
+
+
+ 
+        <div class="login">
+          <p>e-mail:</p>
+          <input type="email">
+          <p> password:</p>
+          <input type="password"><br><br>
+          <button name="Σύνδεση" type="submit">Σύνδεση</button><br>
+          
+          
+       </div>
+
+  
+       
+      </div>
+      
+    </div>
+    
+    
+   
+  
+</div>
+</div>
+<script>
+	function myFunction() {
+	  var x = document.getElementById("sideNav");
+	  if (x.className === "sidenav") {
+		x.className += " responsive";
+	  } else {
+		x.className = "sidenav";
+	  }
+	}
+	</script>
+</body>
+</html>

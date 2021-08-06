@@ -1,0 +1,70 @@
+
+p{
+    font-size: medium;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+div.gallSpace{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float:inline-start;
+    width: 5px;
+    visibility: hidden;
+}
+div.gallSpace img{
+    width: 100%;
+  height: auto;
+}
+div.gallery1{
+    margin: 5px;
+  border: 1px solid #ccc;
+  float:left;
+  width: 180px;
+}
+div.gallery1 img{
+    width: 100%;
+  height: auto;
+}
+div.gallery3{
+    margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+div.gallery3 img{
+    width: 100%;
+  height: auto;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+table{
+  border-collapse:separate;
+  width: 70%;
+  align-self: center;
+}
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+th, td{
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+th{
+  background-color: blanchedalmond;
+}
+tr:hover{
+  background-color: bisque;
+}

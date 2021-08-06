@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>StudyKoreanWithMe</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles/mainStyle.css">
+<link rel="stylesheet" href="styles/quiz.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<div class="sidenav" id="sideNav">
+
+			<a href="index.html">
+				<div class="menu">
+					αρχική
+				</div>
+			</a>
+	  <a href="basics.html">
+		  <div class="menu">
+				βασικά
+		  </div>
+		</a>
+	  <a href="more.html">
+		  <div class="menu">
+				περισσότερα
+		  </div>
+	  </a>
+	  <a href="quiz.html" class="active">
+		<div class="menu">
+			quiz
+		</div>
+	  </a>
+	  
+	  <a href="login.html">
+		  <div class="menu">
+			  είσοδος
+		  </div>
+	  </a>
+	 
+
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()" style="font-size:140%">
+		<i class="fa fa-bars"></i>
+	  </a>
+	</div>
+
+<div class="content">
+  <h3>Είσαι έτοιμη/ος να κάνεις ένα τεστ;</h3>
+  
+  <form>
+    <!--α) Σωστού-Λάθους -->
+    <p><b>Το γράμμα ㅇ προφέρεται σαν [ng];</b></p>
+    <input type="radio" id="T" name="q1" value="1">
+    <label for="T">Σωστό</label>
+    <input type="radio" id="F" name="q1" value="0">
+    <label for="F">Λάθος</label>
+
+    <p><b>Το γράμμα 아 προφέρεται σαν [ou];</b></p>
+    <input type="radio" id="T" name="q2" value="1">
+    <label for="T">Σωστό</label>
+    <input type="radio" id="F" name="q2" value="0">
+    <label for="F">Λάθος</label>
+
+    <p><b>Το γράμμα ㅈ προφέρεται σαν [j];</b></p>
+    <input type="radio" id="T" name="q3" value="1">
+    <label for="T">Σωστό</label>
+    <input type="radio" id="F" name="q3" value="0">
+    <label for="F">Λάθος</label>
+
+    <p><b>Η λέξη 여자 σημαίνει άντρας;</b></p>
+    <input type="radio" id="T" name="q4" value="1">
+    <label for="T">Σωστό</label>
+    <input type="radio" id="F" name="q4" value="0">
+    <label for="F">Λάθος</label>
+
+    <p><b>Η λέξη 학생 σημαίνει Κορέα;</b></p>
+    <input type="radio" id="T" name="q5" value="1">
+    <label for="T">Σωστό</label>
+    <input type="radio" id="F" name="q5" value="0">
+    <label for="F">Λάθος</label>
+
+    <p><b>Με το 를/을 δηλώνουμε αντικείμενο;</b></p>
+    <input type="radio" id="T" name="q6" value="1">
+    <label for="T">Σωστό</label>
+    <input type="radio" id="F" name="q6" value="0">
+    <label for="F">Λάθος</label>
+
+    <p><b>Το 은 θα μπει μετά από μια λέξη που τελειώνει σε φωνήεν;</b></p>
+    <input type="radio" id="T" name="q7" value="1">
+    <label for="T">Σωστό</label>
+    <input type="radio" id="F" name="q7" value="0">
+    <label for="F">Λάθος</label>
+
+    <!--β) Πολλαπλών επιλογών με μία μόνο σωστή απάντηση-->
+    <p><b>Πως προφέρεται το γράμμα ㅔ;</b></p>
+    <input type="radio" name="q8">
+    <label for="q121">[a]</label>
+    <input type="radio" name="q8">
+    <label for="q122">[e]</label>
+    <input type="radio" name="q8">
+    <label for="q123">[u]</label>
+
+    <p><b>Πως προφέρεται η συλλαβή 뇨;</b></p>
+    <input type="radio"  name="q9">
+    <label for="q121">[nyo]</label>
+    <input type="radio"  name="q9">
+    <label for="q122">[no]</label>
+    <input type="radio" name="q9">
+    <label for="q123">[lyo]</label>
+
+    <p><b>Πως προφέρεται η συλλαβή 소;</b></p>
+    <input type="radio"  name="q10">
+    <label for="q121">[ta]</label>
+    <input type="radio"  name="q10">
+    <label for="q122">[ko]</label>
+    <input type="radio"  name="q10">
+    <label for="q123">[so]</label>
+
+    <p><b>Πως προφέρεται η συλλαβή 해;</b></p>
+    <input type="radio"  name="q11">
+    <label for="q121">[te]</label>
+    <input type="radio"  name="q11">
+    <label for="q122">[kae]</label>
+    <input type="radio"  name="q11">
+    <label for="q123">[hae]</label>
+
+    <p><b>Πως είναι η λέξη κρεβάτι στα κορεατικά;</b></p>
+    <input type="radio"  name="q12">
+    <label for="q121">집</label>
+    <input type="radio"  name="q12">
+    <label for="q122">소파</label>
+    <input type="radio"  name="q12">
+    <label for="q123">침대</label>
+
+    <p><b>Τι σημαίνει η λέξη 나라;</b></p>
+    <input type="radio"  name="q13">
+    <label for="q121">χώρα</label>
+    <input type="radio"  name="q13">
+    <label for="q122">Κίνα</label>
+    <input type="radio"  name="q13">
+    <label for="q123">βιβλίο</label>
+
+    <p><b>Τι σημαίνει αυτή η πρόταση: 나는 여자이다;</b></p>
+    <input type="radio"  name="q14">
+    <label for="q121">Εγώ είμαι γιατρός</label>
+    <input type="radio"  name="q14">
+    <label for="q122">Εγώ είμαι γυναίκα</label>
+    <input type="radio"  name="q14">
+    <label for="q123">Εγώ είμαι άντρας</label>
+
+    <!--γ) Πολλαπλών επιλογών με περισσότερες από μία σωστές απαντήσεις -->
+
+
+    <!--δ) Συμπλήρωσης κενού-κειμένου (με συμπλήρωση μίας λέξης).-->
+    <p><b>Πως προφέρεται η λέξη 바나나 στα κορεατικά; (roman)</b></p>
+    <input type="text" id="q31" name="q15" >
+    <p><b>Πως προφέρεται η λέξη 안녕 στα κορεατικά; (roman)</b></p>
+    <input type="text" id="q31" name="q16" >
+    <p><b>Πως προφέρεται η λέξη 꽃가게 στα κορεατικά; (roman)</b></p>
+    <input type="text" id="q31" name="q17" >
+    <p><b>Πως προφέρεται η λέξη 끝나다 στα κορεατικά; (roman)</b></p>
+    <input type="text" id="q31" name="q18" >
+    <p><b>Πως προφέρεται η λέξη 맞히다 στα κορεατικά; (roman)</b></p>
+    <input type="text" id="q31" name="q19" ><br><br>
+
+    <p><b>Μετέφρασε την πρόταση "Αυτή η γυναίκα είναι γιατρός".</b></p>
+    <input type="text" id="q31" name="q20" ><br><br>
+
+    <p><b>Μετέφρασε την πρόταση "Αυτό το αντικείμενο είναι ξύλο".</b></p>
+    <input type="text" id="q31" name="q21" ><br><br>
+
+    <p><b>Τι σημαίνει η λέξη 저것; (Μόνο την λέξη)</b></p>
+    <input type="text" id="q31" name="q22" ><br><br>
+
+    <p><b>Τι σημαίνει η λέξη 선생님; (Μόνο την λέξη)</b></p>
+    <input type="text" id="q31" name="q23" ><br><br>
+
+    <p><b>Μετέφρασε την πρόταση "저는 사람을 선생님이다".</b></p>
+    <input type="text" id="q31" name="q23" ><br><br>
+    <button name="submit" type="submit">Αποτελέσματα</button><br><br>
+</form>
+
+</div>
+<script>
+	function myFunction() {
+	  var x = document.getElementById("sideNav");
+	  if (x.className === "sidenav") {
+		x.className += " responsive";
+	  } else {
+		x.className = "sidenav";
+	  }
+	}
+	</script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>StudyKoreanWithMe</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles/loginStyle.css">
+<link rel="stylesheet" href="styles/mainStyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div class="sidenav" id="sideNav">
+
+      <a href="index.html">
+        <div class="menu">
+          αρχική
+        </div>
+      </a>
+    <a href="basics.html">
+      <div class="menu">
+        βασικά
+      </div>
+    </a>
+    <a href="more.html">
+      <div class="menu">
+        περισσότερα
+      </div>
+    </a>
+    <a href="quiz.html">
+    <div class="menu">
+      quiz
+    </div>
+    </a>
+    
+    <a href="login.html">
+      <div class="menu">
+        είσοδος
+      </div>
+    </a>
+   
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="font-size:140%">
+    <i class="fa fa-bars"></i>
+  </a>
+  </div>
+
+<div class="content">
+  <h3>εγγραφή</h3>
+  <p>Εδώ μπορείτε να κάνετε εγγραφή</p>
+</a>
+  </p>
+    <div class="signup">
+        <form>
+            <p>Ονομα:</p>
+            <input type="text">
+            <p>Επώνυμο</p>
+            <input type="text">
+            <p>Ημερομηνία γέννησης:</p>
+            <input type="date">
+            <p>Pronoun:</p>
+            <form>
+              <input type="radio" id="she/her" name="gender pronoun" value="she">
+              <label for="she/her">She/Her</label>
+              <input type="radio" id="he/him" name="gender pronoun" value="he">
+              <label for="he/him">He/His</label>
+              <input type="radio" id="they/them" name="gender pronoun" value="they">
+              <label for="they/them">They/Them</label>
+            </form>
+            <p>Όνομα Χρήστης:</p>
+            <input type="text">
+            <p>E-mail:</p>
+            <input type="email">
+            <p>Κωδικός πρόσβασης:</p>
+            <input type="password">
+            <input type="password"><br><br>
+          
+            <form >
+              <label for="img">Εικόνα Προφίλ:</label><br><br>
+              <input type="file" id="img" name="img" accept="image/*">
+            
+            </form>
+            <br><button name="εγγραφή" type="submit">Εγγραφή</button>
+
+        </form>
+      
+      
+      <br><img src="media/pics/D1rNdzHUgAAy5Q3-removebg-preview2.png">
+    </div>
+   
+</div>
+<script>
+	function myFunction() {
+	  var x = document.getElementById("sideNav");
+	  if (x.className === "sidenav") {
+		x.className += " responsive";
+	  } else {
+		x.className = "sidenav";
+	  }
+	}
+	</script>
+</body>
+</html>

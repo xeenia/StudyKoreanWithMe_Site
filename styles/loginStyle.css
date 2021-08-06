@@ -1,0 +1,61 @@
+
+  .div2 {
+    width: 500px;
+    height: 300px;
+    padding: 50px;
+    border: 5px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    float:inherit;
+    
+  }
+  .login{
+    text-align: center;
+  }
+  .signup{
+      text-align: center;
+  }
+  
+  .tex{
+      text-align:left;
+  }
+
+  .col {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+  }
+  .vl {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px solid #ddd;
+    height: 175px;
+  }
+  
+  /* text inside the vertical line */
+  .vl-innertext {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 8px 10px;
+  }
+  @media screen and (max-width: 650px) {
+    .col {
+      width: 100%;
+      margin-top: 0;
+    }
+    /* hide the vertical line */
+    .vl {
+      display: none;
+    }
+    /* show the hidden text on small screens */
+    .hide-md-lg {
+      display: block;
+      text-align: center;
+    }
+  }

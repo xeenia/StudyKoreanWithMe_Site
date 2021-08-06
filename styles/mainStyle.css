@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.sidenav {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 350px;
+  position: fixed;
+  overflow-x: auto;
+  background-image: url("../media/pics/studywithother.png");
+  background-size: cover;
+  background-position-x: 25%;
+}
+
+.menu {
+    text-decoration: underline;
+    text-align: center;
+    font-size: x-large;
+    font-family:'pecita';
+}
+
+.sidenav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.sidenav a:hover {
+  background-color: rgba(255,246,239,255);
+  color: rgb(0, 0, 0);
+}
+.sidenav a:active{
+  background-color: rgba(255,246,239,255);
+  color: rgb(0, 0, 0);
+}
+.sidenav .icon {
+  display: none;
+}
+
+.content {
+  margin-left: 350px;
+  padding: 1px 20px;
+  height: 1000px;
+  text-align: center;
+  align-items: center;
+}
+body{
+    background-color: rgba(255,246,239,255);
+}
+ 
+a.language:link {
+  text-decoration: black;
+}
+
+a.language:visited {
+  text-decoration: black;
+}
+
+a.language:hover {
+  text-decoration: underline;
+}
+
+a.language:active {
+  text-decoration: underline;
+}
+.button {
+  margin-right: 2%;
+  background-color: rgb(98,62,49);
+  border: none;
+  color: white;
+  width: 10%;
+  height: 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+
+}
+.left{
+  text-align: left;
+}
+h3.center{
+  text-align: center;
+}
+.button:hover{
+  background-color: rgb(110, 83, 73)
+}
+center{
+  align-items: center;
+}
+@media only screen and (max-width: 1000px){
+  .sidenav{
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidenav a {
+    float:left;
+  }
+  div.content {
+      margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sidenav a:not(:first-child) {display:none;}
+  .sidenav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .sidenav.responsive {position: relative;}
+  .sidenav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .sidenav.responsive a {
+    float: none;
+    display: block;
+  }
+  .sidenav.responsive{
+    background-color: black;
+  }
+}
+@media screen and ( max-width: 1024px ) {
+  img.responsive { width: 100%; }
+  }
+ 
+@media screen and ( max-width: 1024px ) {
+    img.responsive2 { width: 100%; }
+  }
+  @media screen and ( max-width: 1080px ) {
+    .button{
+      width: 20%;
+    }
+  }
+
+  
